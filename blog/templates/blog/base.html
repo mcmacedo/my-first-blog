@@ -9,6 +9,8 @@
 </head>
 <body>
 	<div class="page-header">
+		<a	href="{% url 'post_draft_list' %}" class="top-menu"><span class="glyphicon glyphicon-edit"></span></a>
+		<a href="{% url 'blog.views.post_new' %}" class="top-menu"><span class="glyphicoon glyphicon-plus"></span></a>
 		<h1><a href="/">Django Unchained Blog</a></h1>
 	</div>
 	<div class="content container">
